@@ -26,7 +26,7 @@ window.addEventListener('resize', function () {
 
 });
 
-var geometry = new THREE.ConeGeometry(1, 1, 4);
+var geometry = new THREE.ConeBufferGeometry(1, 1, 4, 4,true );
 
 var material = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true});
 
