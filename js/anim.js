@@ -1,7 +1,5 @@
 
-var renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.getElementById('pyramide').appendChild(renderer.domElement);
+
 
 var scene = new THREE.Scene();
 
@@ -11,6 +9,12 @@ var camera = new THREE.PerspectiveCamera(45,
     0.1,
     1000
 );
+var renderer = new THREE.WebGLRenderer();
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+
+document.getElementById('pyramide').appendChild(renderer.domElement);
+//document.body.appendChild(renderer.domElement);
 
 controls = new THREE.OrbitControls(camera, renderer.domElement);
 

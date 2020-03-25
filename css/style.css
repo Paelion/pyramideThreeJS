@@ -1,3 +1,35 @@
-canvas{
+#pyramide{
     width: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.home{
+    display: flex;
+    /*align-items: center;*/
+}
+.homeTxt{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 2;
+    margin-right: 25px;
+}
+.desc{
+    color: white;
+    display: flex;
+    width: 20%;
+    text-align: justify;
+
+}
+header{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color: white;
+    font-size: 50px;
 }
