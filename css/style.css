@@ -1,7 +1,13 @@
+html{
+    background-color: #2E2B30;
+}
 #pyramide{
     width: 400px;
     position: relative;
     z-index: 1;
+}
+#pyramide canvas{
+    background-color: #2E2B30;
 }
 
 .home{
@@ -24,7 +30,6 @@
 }
 header{
     height: 200px;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;

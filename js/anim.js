@@ -2,6 +2,7 @@
 
 
 var scene = new THREE.Scene();
+scene.background = new THREE.Color(0x2E2B30);
 
 
 var camera = new THREE.PerspectiveCamera(45,
